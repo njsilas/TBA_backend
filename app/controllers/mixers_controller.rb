@@ -46,6 +46,6 @@ class MixersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def mixer_params
-      params.require(:mixer).permit(:kind, :name, :price, :yield, :ppo, :ingreds)
+      params.require(:mixer).permit(:mixer_type, :name, :price, :yield, :ppo, :ingreds)
     end
-end
+end 

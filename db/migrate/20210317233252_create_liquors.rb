@@ -1,8 +1,8 @@
 class CreateLiquors < ActiveRecord::Migration[6.1]
   def change
     create_table :liquors do |t|
-      t.string "name"
-      t.string "kind"
+      t.string "brand"
+      t.string "spirit_type"
       t.string "image"
       t.decimal "price", precision: 6, scale: 2
       t.string "seller"

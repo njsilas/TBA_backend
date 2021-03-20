@@ -16,8 +16,8 @@ ActiveRecord::Schema.define(version: 2021_03_18_011308) do
   enable_extension "plpgsql"
 
   create_table "liquors", force: :cascade do |t|
-    t.string "name"
-    t.string "kind"
+    t.string "brand"
+    t.string "spirit_type"
     t.string "image"
     t.decimal "price", precision: 6, scale: 2
     t.string "seller"
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2021_03_18_011308) do
   end
 
   create_table "mixers", force: :cascade do |t|
-    t.string "kind"
+    t.string "mixer_type"
     t.string "name"
     t.decimal "price", precision: 6, scale: 2
     t.decimal "yield", precision: 6, scale: 2
