@@ -1,25 +1,22 @@
-# README
+# The Bar Abacus Back End (TBA)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Bar Abacus Back End is a Ruby on Rails API that connects to the Bar Abacus. 
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Clone the repository at https://github.com/njsilas/TBA_backend. run bundle install and then use rails server command to access the API.
 
-* System dependencies
+## Usage
+This application was designed to act as an API for https://github.com/njsilas/The-Bar-Abacus
 
-* Configuration
+## Support
+Please reach out to njsilas@gmail.com if you are experiencing any issues
 
-* Database creation
+## Roadmap
+I have been very excited to bring this API to life. I plan on adding a model for cocktails to be saved. I also plan on adding Michigan's liquor database as data for users to access by tying in a CSV file.
+ ## Authors and acknowledgment
+ Nick Silas, creator of The Bar Abacus.
+ I would like to thank those individuals who helped me build
+ this site. Thank you all!
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# TBA_backend
